@@ -10,10 +10,10 @@ This library is based on the work done by **Niels Brouwers**, **Mads Hobye**, an
 * Nexus S
 
 ## Installation
-1. A simple...
-2. ...list...
-3. ...of...
-4. ...instructions.
+1. Download the latest [version](https://github.com/agoransson/processingadb/downloads) of the library.
+2. Unzip the archive into your <processing-sketchbook>/libraries/ folder
+3. Restart Processing
+4. Open the example "adbExample" located inside the Processing IDE menu, File-Examples-Contributed-ProcessingAdb
 
 # Getting started
 
