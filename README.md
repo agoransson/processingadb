@@ -24,7 +24,7 @@ ProcessingAdb adb = new ProcessingAdb(this);
 adb.connect();
 ```
 
-## Add the *required* event callback method
+## Add the __required__ event callback method
 ``` java
 int readValue = 0;
 void adbEvent(int val) {
