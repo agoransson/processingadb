@@ -1,6 +1,6 @@
 # ProcessingAdb
 Processing-android library that enables basic communication between a Processing-android sketch and a Arduino device. This library uses the ADB interface for communication... not the ADK.
-This library is based on the work done by *Niels Brouwers*, *Mads Hobye*, and *Benjamin Weber*.
+This library is based on the work done by **Niels Brouwers**, **Mads Hobye**, and **Benjamin Weber**.
 
 ## Requirements
 * Arduino MEGA ADK (or compatible setup)
@@ -17,14 +17,14 @@ This library is based on the work done by *Niels Brouwers*, *Mads Hobye*, and *B
 
 # Getting started
 
-**Create the library instance and connect to the ADB device**
+## Create the library instance and connect to the ADB device
 ``` java
 /* The standard instantiation of libraries in Processing */
 ProcessingAdb adb = new ProcessingAdb(this);
 adb.connect();
 ```
 
-**Add the *required* event callback method**
+## Add the *required* event callback method
 ``` java
 int readValue = 0;
 void adbEvent(int val) {
@@ -32,7 +32,7 @@ void adbEvent(int val) {
 }
 ```
 
-**Detect ADB connection status**
+## Detect ADB connection status
 ``` java
 /* Note: This doesn't seem fully stable yet, and it's sometimes slow to react. */
 if ( adb.STATE == ProcessingAdb.STATE_DISCONNECTED) {
@@ -42,7 +42,7 @@ if ( adb.STATE == ProcessingAdb.STATE_DISCONNECTED) {
 }
 ```
 
-**Send a message (byte array) to the ADB device**
+## Send a message (byte array) to the ADB device
 ``` java
 /* 
   Currently, the only implemented methods of sending data are:
