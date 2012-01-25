@@ -7,7 +7,9 @@ This library is based on the work done by **Niels Brouwers**, **Mads Hobye**, an
 * Android device with a functional ADB interface (rooted or stock)
 
 ## Tested android devices
-* Nexus S
+* Nexus S, version 2.3.6
+* Nexus One, version 2.3.4 (CyanogenMod)
+* ZTE Blade, version 2.1-update1
 
 ## Installation
 1. Download the latest [version](https://github.com/agoransson/processingadb/downloads) of the library.
