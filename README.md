@@ -1,6 +1,5 @@
 # ProcessingAdb
 Processing-android library that enables basic communication between a Processing-android sketch and a Arduino device. This library uses the ADB interface for communication... not the ADK.
-This library is based on the work done by **Niels Brouwers**, **Mads Hobye**, and **Benjamin Weber**.
 
 ## Requirements
 * Arduino MEGA ADK (or compatible setup)
@@ -53,3 +52,23 @@ if ( adb.STATE == ProcessingAdb.STATE_DISCONNECTED) {
 int value = 255;
 adb.write( new byte[]{(byte)value});
 ```
+
+# License
+Copyright (C) 2012  Andreas Göransson
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+# Credits
+This library is based on the work done by **Niels Brouwers**, **Mads Hobye**, and **Benjamin Weber**.
+	
