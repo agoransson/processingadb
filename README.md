@@ -54,6 +54,7 @@ adb.write( new byte[]{(byte)value});
 ```
 
 # License
+``` java
 Copyright (C) 2012  Andreas Göransson
 
 This program is free software: you can redistribute it and/or modify
@@ -68,6 +69,7 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
+```
 
 # Credits
 This library is based on the work done by **Niels Brouwers**, **Mads Hobye**, and **Benjamin Weber**.
