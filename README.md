@@ -18,6 +18,10 @@ Processing-android library that enables basic communication between a Processing
 
 # Getting started
 
+## Set the required USES_PERMISSIONS for the sketch
+Make sure that the INTERNET permission is selected for the sketch.
+Menu: __Android__ - __Sketch Permissions__ - INTERNET
+
 ## Create the library instance and connect to the ADB device
 ``` java
 /* The standard instantiation of libraries in Processing */
