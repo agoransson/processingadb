@@ -77,4 +77,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 # Credits
 This library is based on the work done by **Niels Brouwers**, **Mads Hobye**, and **Benjamin Weber**.
-	
+
+## Want to help?
+If you want to help me develop this library, let me know!
