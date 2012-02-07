@@ -9,6 +9,7 @@ Processing-android library that enables basic communication between a Processing
 * Nexus S, version 2.3.6
 * Nexus One, version 2.3.4 (CyanogenMod)
 * ZTE Blade, version 2.1-update1
+* Huawei U8160, version 2.3.7 (CyanogenMod)
 
 ## Installation
 1. Download the latest [version](https://github.com/agoransson/processingadb/downloads) of the library.
